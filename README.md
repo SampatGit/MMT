@@ -1,2 +1,2 @@
 # MMT
-MMT automation
+MMT automation testing
