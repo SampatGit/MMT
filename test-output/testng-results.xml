@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71236" started-at="2020-04-26T14:42:19Z" finished-at="2020-04-26T14:43:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71236" started-at="2020-04-26T14:42:19Z" finished-at="2020-04-26T14:43:30Z">
+      <class name="MMT.TestCaseTwo">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:MMT.TestCaseTwo@464bee09]" name="initiateDriverInstance" is-config="true" duration-ms="3786" started-at="2020-04-26T14:42:19Z" finished-at="2020-04-26T14:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="setExtentConfig()[pri:0, instance:MMT.TestCaseTwo@464bee09]" name="setExtentConfig" is-config="true" duration-ms="148" started-at="2020-04-26T14:42:23Z" depends-on-methods="Resources.DriverSource.initiateDriverInstance" finished-at="2020-04-26T14:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentConfig -->
+        <test-method status="PASS" signature="readProperties()[pri:0, instance:MMT.TestCaseTwo@464bee09]" name="readProperties" is-config="true" duration-ms="7" started-at="2020-04-26T14:42:23Z" finished-at="2020-04-26T14:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProperties -->
+        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:MMT.TestCaseTwo@464bee09]" name="testCaseTwo" duration-ms="60942" started-at="2020-04-26T14:42:23Z" finished-at="2020-04-26T14:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MMT.TestCaseTwo@464bee09]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-04-26T14:43:24Z" finished-at="2020-04-26T14:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseTwo status=SUCCESS method=TestCaseTwo.testCaseTwo()[pri:0, instance:MMT.TestCaseTwo@464bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushExtent()[pri:0, instance:MMT.TestCaseTwo@464bee09]" name="flushExtent" is-config="true" duration-ms="460" started-at="2020-04-26T14:43:24Z" finished-at="2020-04-26T14:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtent -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:MMT.TestCaseTwo@464bee09]" name="closeResources" is-config="true" duration-ms="5853" started-at="2020-04-26T14:43:25Z" depends-on-methods="Utils.Reporting.flushExtent" finished-at="2020-04-26T14:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- MMT.TestCaseTwo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
